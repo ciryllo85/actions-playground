@@ -1,0 +1,13 @@
+name: Imprime data atual
+
+on:
+  push: 
+  
+jobs:
+  imprime-data-ubuntu:
+    name: Imprime data atual
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Imprime Data atual -  Ubuntu
+        run: date
